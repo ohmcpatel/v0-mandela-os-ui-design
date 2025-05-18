@@ -1,0 +1,9 @@
+import { PartnersNetwork } from "@/components/partners-network"
+
+export default function PartnersPage() {
+  return (
+    <main className="flex-1 w-full overflow-auto bg-gradient-to-b from-slate-50 to-slate-100 p-6">
+      <PartnersNetwork />
+    </main>
+  )
+}
